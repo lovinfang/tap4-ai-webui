@@ -41,6 +41,14 @@ export default function RootLayout({
         </NextIntlClientProvider>
         <SeoScript />
         <GoogleAdScript />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KKJJJM9MDP"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-KKJJJM9MDP');
+        </script>
       </body>
     </html>
   );
